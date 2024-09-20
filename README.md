@@ -139,3 +139,21 @@ Untuk diatas adalah bentuk polymorphism karena dengan pengimplementasian method 
 
 ## **Output Program**
 
+## **Tabel Data Izin Ketidakhadiran Pegawai**
+
+<img width="947" alt="tabel_izin" src="https://github.com/user-attachments/assets/6a67c676-3795-4475-ab86-2b6403756b45">
+
+## **Tabel Data Izin Ketidakhadiran Pegawai Dengan Putusan Diterima**
+
+<img width="958" alt="tabel_diterima" src="https://github.com/user-attachments/assets/438b10b1-2b84-4b78-914a-99677167dceb">
+
+## **Tabel Data Izin Ketidakhadiran Pegawai Dengan Putusan Tidak Diterima**
+
+<img width="960" alt="tabel_tdkditerima" src="https://github.com/user-attachments/assets/a1840616-4427-4486-bb73-dfeea9e42b39">
+
+## **Tabel Data Izin Ketidakhadiran Pegawai Dengan Putusan Diterima Dengan Syarat**
+
+<img width="960" alt="tabel_diterimasyarat" src="https://github.com/user-attachments/assets/18a73225-0cf2-4724-8b89-49afafa18832">
+
+
+
