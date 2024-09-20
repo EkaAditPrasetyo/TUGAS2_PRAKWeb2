@@ -143,6 +143,8 @@ Untuk diatas adalah bentuk polymorphism karena dengan pengimplementasian method 
 
 <img width="947" alt="tabel_izin" src="https://github.com/user-attachments/assets/6a67c676-3795-4475-ab86-2b6403756b45">
 
+Output pada tabel diatas menunjukan data izin ketidakhadiran pegawai secara keseluruhan.
+
 ## **Tabel Data Izin Ketidakhadiran Pegawai Dengan Putusan Diterima**
 
 <img width="958" alt="tabel_diterima" src="https://github.com/user-attachments/assets/438b10b1-2b84-4b78-914a-99677167dceb">
