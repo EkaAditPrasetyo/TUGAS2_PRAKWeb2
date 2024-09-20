@@ -25,7 +25,7 @@ class Database { //membuat class database untuk mengkoneksikan database mysqli
     public $username = "root";
     public $password = "";
     public $database = "tugasii";//tugasii adalah nama database di phpmyadmin
-    protected $koneksi;
+    protected $koneksi;//visibility diakses kelas induk dan kelas turunan
 
     public function __construct() { //constructor akan dijalankan saat awal pembuatan objek
         $this->koneksi = mysqli_connect($this->host, $this->username, $this->password, $this->database);//koneksi ke database dengan menyimpannya ke properti koneksi
