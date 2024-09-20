@@ -56,7 +56,7 @@ Penggunaan prinsip OOP yaitu Encapsulation pada program studi kasus.
 ```sh
 1. public $host = "localhost";
 
-2.public $koneksi;
+2. public $koneksi;
 ```
 Untuk sintaks diatas bermaksud bahwa visibility public dijalankan untuk dapat digunakan secara umum saat instasiasi pada kelas.
 
@@ -82,4 +82,60 @@ Penjelasan :
 3. Untuk class Izin extends Database yaitu turunan kelas dari induk kelas (Database). Dalam hal ini class Izin akan terextends ke class Database.
 
 ##  **Task Ke-5**
+Menyertakan prinsip OOP yaitu Polymorphism pada program.
+
+```sh
+include "koneksi.php";
+class Izin extends Database {
+    public function __construct(){
+        parent::__construct();
+    }
+    public function proses(){
+        $sql = "SELECT * FROM izin_ketidakhadiran_pegawai";
+        return $this->koneksi->query($sql);
+    }
+}
+```
+
+```sh
+class PutusanDiterimaSyarat extends Database {
+    public function __construct(){ 
+        parent::__construct();
+    }
+    public function proses(){
+        $sql = "SELECT * FROM izin_ketidakhadiran_pegawai
+                WHERE putusan = 'Diterima dengan syarat'";
+        return $this->koneksi->query($sql);
+    }
+}
+```
+
+```sh
+class PutusanDiterima extends Database {
+    public function __construct(){  
+        parent::__construct();
+    }
+    public function proses(){
+        $sql = "SELECT * FROM izin_ketidakhadiran_pegawai 
+                WHERE putusan = 'Diterima'";
+        return $this->koneksi->query($sql);
+    }
+}
+```
+
+```sh
+class PutusanTidakDiterima extends Database {
+    public function __construct(){
+        parent::__construct();
+    }
+    public function proses(){
+        $sql = "SELECT * FROM izin_ketidakhadiran_pegawai 
+                WHERE putusan = 'Tidak diterima'";   
+        return $this->koneksi->query($sql);
+    }
+}
+```
+Untuk diatas adalah bentuk polymorphism karena dengan pengimplementasian method yang sama namun memiliki bentuk yang beragam kemudian dapat membentuk behavior yang beraneka.
+
+## **Output Program**
 
