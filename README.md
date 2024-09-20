@@ -147,13 +147,25 @@ Untuk diatas adalah bentuk polymorphism karena dengan pengimplementasian method 
 
 <img width="958" alt="tabel_diterima" src="https://github.com/user-attachments/assets/438b10b1-2b84-4b78-914a-99677167dceb">
 
+Keputusan izin diterima dalam ketidakhadiran pegawai apabila:
+Alasan izin sah dan sesuai dengan kebijakan perusahaan, seperti sakit (dengan surat dokter), studi penelitian, cuti tahunan, 
+atau alasan pribadi yang dapat diterima (misalnya pernikahan atau kelahiran anak).
+
 ## **Tabel Data Izin Ketidakhadiran Pegawai Dengan Putusan Tidak Diterima**
 
 <img width="960" alt="tabel_tdkditerima" src="https://github.com/user-attachments/assets/a1840616-4427-4486-bb73-dfeea9e42b39">
 
+Keputusan izin tidak diterima dalam ketidakhadiran pegawai jika:
+Alasan izin tidak valid atau tidak sesuai dengan kebijakan perusahaan (misalnya, pengajuan cuti tanpa alasan jelas dan lain-lain).
+Dokumen yang mendukung perizinan tidak lengkap atau tidak ada.
+
 ## **Tabel Data Izin Ketidakhadiran Pegawai Dengan Putusan Diterima Dengan Syarat**
 
 <img width="960" alt="tabel_diterimasyarat" src="https://github.com/user-attachments/assets/18a73225-0cf2-4724-8b89-49afafa18832">
+
+Dalam beberapa kondisi, perusahaan mungkin dapat memberikan persetujuan bersyarat, di mana izin diberikan namun dengan syarat atau kondisi tertentu. 
+Misalnya, pegawai diizinkan untuk cuti, namun diharuskan untuk menyelesaikan beberapa tugas sebelum cuti dimulai. Sebagai contoh, Pegawai diizinkan untuk cuti selama 3 hari, tetapi harus menyelesaikan laporan dan operasional pekerjaan yang sedang berjalan sebelum izin dimulai.
+
 
 
 
