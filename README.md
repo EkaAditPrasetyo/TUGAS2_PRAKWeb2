@@ -25,7 +25,7 @@ class Database { //membuat class database untuk mengkoneksikan database mysqli
     public $username = "root";
     public $password = "";
     public $database = "tugasii";//tugasii adalah nama database di phpmyadmin
-    public $koneksi;
+    protected $koneksi;
 
     public function __construct() { //constructor akan dijalankan saat awal pembuatan objek
         $this->koneksi = mysqli_connect($this->host, $this->username, $this->password, $this->database);//koneksi ke database dengan menyimpannya ke properti koneksi
@@ -56,9 +56,11 @@ Penggunaan prinsip OOP yaitu Encapsulation pada program studi kasus.
 ```sh
 1. public $host = "localhost";
 
-2. public $koneksi;
+2. protected $koneksi;
 ```
 Untuk sintaks diatas bermaksud bahwa visibility public dijalankan untuk dapat digunakan secara umum saat instasiasi pada kelas.
+
+Untuk sintaks diatas bermaksud bahwa visibility protected dijalankan untuk dapat dieksekusi oleh kelas induk dan kelas turunannya.
 
 ```sh
  function tampilData() 
